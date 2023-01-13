@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body onload="rollDice()" style="background-color: #C7B9FF;">
+    <div class="heading">
+        <h1>Dice Game</h1>
+    </div>
+    <div class="box">
+    </div>
+    <div class="roll-button">
+        <button type="submit" onclick="rollDice()" class="btn">Generate Number</button>
+    </div>
+    <div>
+        <p class="generated-text">Generated Number</p>
+    </div>
+    <div class="generated-number">
+        <p id="valueOfDice"></p>
+    </div>
+</body>
+</html>

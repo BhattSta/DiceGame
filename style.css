@@ -1,0 +1,96 @@
+.heading{
+    margin-left: 203px;
+    margin-top: 100px;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 200px;
+    box-shadow: 3px 3px;
+    background-color: white;
+}
+
+.dot{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    display: block;
+}
+
+[data-number="1"]{
+    top: 5px;
+    left: 5px;
+}
+
+[data-number="2"]{
+    left: 64px;
+    top: 5px;
+}
+
+[data-number="3"]{
+    top: 5px;
+    right: 5px;
+}
+
+[data-number="4"]{
+    left: 5px;
+    top: 65px;
+}
+
+[data-number="5"]{
+    left: 64px;
+    top: 65px;
+}
+
+[data-number="6"]{
+    right: 5px;
+    top: 65px;
+}
+
+[data-number="7"]{
+    left: 5px;
+    bottom: 5px;
+}
+
+[data-number="8"]{
+    left: 64px;
+    bottom: 5px;
+}
+
+[data-number="9"]{
+    right: 5px;
+    bottom: 5px;
+}
+
+
+.roll-button{
+    margin-top: 25px;
+}
+
+.btn{
+    text-align: center;
+    font-weight: bold;
+    padding: 13px;
+    margin-left: 188px;
+    background-color: #EA4E4E;
+    font-size: larger;
+}
+
+.generated-text{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.generated-number{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 265px;
+}
